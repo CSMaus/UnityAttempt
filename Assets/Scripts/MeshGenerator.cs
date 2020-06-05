@@ -40,7 +40,6 @@ public class MeshData
     public int[] triangles;
     public Vector2[] uvs;
 
-
     int triangleIndex;
 
     public MeshData(int meshWidth, int meshHeight)
