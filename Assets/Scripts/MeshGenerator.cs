@@ -3,15 +3,10 @@ using UnityEngine;
 
 public static class MeshGenerator
 {
-<<<<<<< HEAD
-    public static MeshData GenerateTerrainMesh(float[,] heightMap, float heightMultiply, AnimationCurve _heightCurve, int levelOfDetail)
-    {
+        public static MeshData GenerateTerrainMesh(float[,] heightMap, float heightMultiply, AnimationCurve _heightCurve, int levelOfDetail)
+        {
+
         AnimationCurve heightCurve = new AnimationCurve(_heightCurve.keys);
-=======
-    public static MeshData GenerateTerrainMesh(float[,] heightMap, float heightMultiply, AnimationCurve _heighCurve, int levelOfDetail)
-    {
-        AnimationCurve heighCurve = new AnimationCurve(_heighCurve.keys);
->>>>>>> 2193efd16062ed52927a363f98aebfee23c27d30
 
         int width = heightMap.GetLength(0);
         int height = heightMap.GetLength(1);
